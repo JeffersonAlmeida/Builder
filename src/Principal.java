@@ -16,17 +16,17 @@ public class Principal {
 		
 		RTFReaderDirector director =  new RTFReaderDirector(builderTex);
 		director.readText();
-		director.getBuilder().showResult();		
+		director.getBuilder().mostraTextoConvertido();		
 		
 		
 		director.setBuilder(builderASC);
 		director.readText();
-		director.getBuilder().showResult();		
+		director.getBuilder().mostraTextoConvertido();		
 		
 		
 		director.setBuilder(builderWidget);
 		director.readText();
-		director.getBuilder().showResult();
+		director.getBuilder().mostraTextoConvertido();
 		
 		
 		
